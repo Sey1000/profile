@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300');
+@import "components/avatar.css";
+@import "components/button.css";
 
 body {
-  background-color: #EBEBEB;
+  background-color: #FAFBE7;
   font-family: 'Open Sans', sans-serif;
   color: #7E7E7E;
   font-size: 15px;
@@ -22,10 +24,6 @@ h1 {
   font-weight: 700;
 }
 
-img {
-  width: 200px;
-}
-
 a {
   color: rgb(190, 190, 190);
   text-decoration: none;
@@ -43,16 +41,6 @@ td {
 .container {
   width: 500px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
-}
-
-.card {
-  margin: 15px;
-  padding: 20px;
-  background-color: white;
-  border: 0.5px solid #E6E6E6;
-  border-radius: 8px;
-  box-shadow: 1px 1px 2px #DDD;
-  text-align: center;
 }
 
 .list-inline {
